@@ -30,7 +30,7 @@ function Home() {
           </Swiper>
           <div className='collection-container'>
             <div style={{fontWeight: "bold", fontSize: "2rem"}}>Collection</div>
-            <div className='collections'>
+            <div className='home-collections'>
               <div className='collection'>
                 <div className='collection-title'>Xuân</div>
                 <img className='collection-image' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8DyeKqdRkRe78ocuLC2a3Qpx329bYg2WWzw&s'></img>

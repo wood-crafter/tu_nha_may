@@ -61,7 +61,7 @@
   align-items: center;
 }
 
-.collections {
+.home-collections {
   display: flex;
   flex-direction: row;
 }

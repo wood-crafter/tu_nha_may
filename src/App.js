@@ -53,12 +53,12 @@ function App() {
       <div className='App'>
         <ScrollToTop smooth color="black" />
         <div className="header">
-          <a href='home'>Tủ nhà mây</a>
+          <a href='/home'>Tủ nhà mây</a>
           <div className="menu"
             onMouseLeave={() => setIsShowingCollection(false)}
           >
             <a>Trang chủ</a>
-            <a href='products'
+            <a href='/products'
             onMouseEnter={() => setIsShowingCollection(true)}
             >
               Sản phẩm &#9663;
