@@ -109,3 +109,71 @@ cursor: pointer;
 .sale-image {
   margin-right: 0.5rem;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+cursor: pointer;
+}
+
+.menu > a {
+  flex-grow: 1;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.collection-options {
+  padding-top: 0.5rem;
+  position: absolute;
+  left: 0;
+  top: 3.5rem;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding-bottom: 0.5rem;
+  height: calc(100vh - 3.5rem);
+}
+
+.image-cards {
+  margin-top: 2rem;
+  width: 40%;
+  display: flex;
+}
+
+.image-card {
+  margin-left: 2rem;
+  width: 13rem;
+  height: 20rem;
+}
+
+.image-card > img {
+  border-radius: 1rem;
+}
+
+.collections {
+  flex-grow: 1;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.collections > a {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  height: 1.8rem;
+  padding-top: 0.02rem;
+  padding-bottom: 0.02rem;
+  font-size: large;
+}
+
+.collections > a:hover {
+  color: blue;
+  background-color: rgb(248, 246, 243);
+}

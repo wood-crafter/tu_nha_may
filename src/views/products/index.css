@@ -1,0 +1,59 @@
+.card {
+  width: 18%;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  width: 100%;
+  height: 80%;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-branch-name {
+  margin-top: 0.5rem;
+  color: #969696;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-product-name {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 0.15rem;
+  margin-bottom: 0.15rem;
+}
+
+.card-product-price {
+  color: red;
+}
+
+.card-image:hover {
+  scale: 1.05;
+  cursor: pointer;
+}
+
+.filter-zone {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
+}
